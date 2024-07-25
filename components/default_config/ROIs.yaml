@@ -1,0 +1,26 @@
+# All coordinates are in [x, y, z] format.
+# The "specific_stimulation" should be the same as the subfolder regions of
+#   the data folder.
+shape_ROI: [10, 10, 10]
+regions: [
+  {
+    name: "STG L",
+    center: [42, 33, 15],
+    specific_stimulation: "auditory stimulation",
+  },
+  {
+    name: "STG R",
+    center: [10, 35, 19],
+    specific_stimulation: "auditory stimulation",
+  },
+  {
+    name: "FFA L",
+    center: [37, 12, 15],
+    specific_stimulation: "visual stimulation",
+  },
+  {
+    name: "FFA R",
+    center: [16, 13, 15],
+    specific_stimulation: "visual stimulation",
+  },
+]

@@ -1,0 +1,7 @@
+# Change the format as needed, but do not change the variable names.
+
+# Label for distinguishing both data types and stimulation.
+datatype_stimulation_label: "{stimulation} ({data_type})"
+# The field saves the similarity value computed by "similarity_method" 
+#   between two images processed by "process_method".
+process_similarity_field: "{similarity_method} ({process_method})"
