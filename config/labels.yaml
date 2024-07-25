@@ -1,0 +1,6 @@
+data_type:
+  shuffled: "shuffled"
+  real: "real"
+
+process_method:
+  original: "original"
